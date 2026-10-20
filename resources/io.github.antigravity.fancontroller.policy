@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>badcast</vendor>
+  <vendor_url>https://github.com/badcast/kaizenpower</vendor_url>
+
+  <action id="io.github.antigravity.fancontroller">
+    <description>Control CPU, GPU and system fan speeds</description>
+    <description xml:lang="ru">Управление частотами CPU, GPU и вентиляторами</description>
+    <description xml:lang="kk">CPU, GPU және желдеткіштерді басқару</description>
+    <description xml:lang="ky">CPU, GPU жана желдеткичтерди башкаруу</description>
+    <description xml:lang="tr">CPU, GPU ve fan hızlarını kontrol et</description>
+    <description xml:lang="uz">CPU, GPU va ventilyatorlarni boshqarish</description>
+    <message>Authentication is required to control hardware fans and frequencies</message>
+    <message xml:lang="ru">Требуется подтверждение для управления вентиляторами и частотами</message>
+    <message xml:lang="kk">Желдеткіштер мен жиіліктерді басқару үшін аутентификация қажет</message>
+    <message xml:lang="ky">Желдеткичтерди жана жыштыктарды башкаруу үчүн ырастоо талап кылынат</message>
+    <message xml:lang="tr">Fanları ve frekansları kontrol etmek için kimlik doğrulaması gerekiyor</message>
+    <message xml:lang="uz">Ventilyatorlar va chastotalarni boshqarish uchun tasdiqlash talab qilinadi</message>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+      <allow_inactive>auth_admin_keep</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/fancontroller</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

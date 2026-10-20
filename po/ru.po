@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FanController 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:59+0500\n"
+"PO-Revision-Date: 2026-10-20 14:55+0500\n"
+"Last-Translator: Antigravity\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/app/MainWindow.cpp:86
+msgid "READ ONLY"
+msgstr "ЧТЕНИЕ"
+
+#: src/app/MainWindow.cpp:92
+msgid ""
+"Restart with administrator privileges (pkexec) to enable hardware control"
+msgstr "Перезапустить с правами администратора (pkexec) для управления"
+
+#: src/app/MainWindow.cpp:112
+msgid "Change interface language"
+msgstr "Сменить язык интерфейса"
+
+#: src/app/MainWindow.cpp:117
+msgid "Refresh sensor data"
+msgstr "Обновить данные датчиков"
+
+#: src/app/MainWindow.cpp:123
+msgid ""
+"The application is running in read-only mode. Administrator (Root) "
+"privileges are required to modify frequencies and fan speeds."
+msgstr ""
+"Приложение работает в режиме чтения. Для изменения частот и оборотов "
+"требуются права администратора (Root)."
+
+#: src/app/MainWindow.cpp:124
+msgid "Elevate Privileges"
+msgstr "Повысить привилегии"
+
+#: src/app/MainWindow.cpp:150
+msgid "Hardware restored to factory automatic mode"
+msgstr "Оборудование возвращено в заводской автоматический режим"
+
+#: src/app/MainWindow.cpp:157 src/app/MainWindow.cpp:237
+msgid "Profile activated: "
+msgstr "Профиль активирован: "
+
+#: src/app/MainWindow.cpp:161
+msgid "Overview"
+msgstr "Сводка"
+
+#: src/app/MainWindow.cpp:197 src/app/MainWindow.cpp:284
+msgid "Detected fans: "
+msgstr "Обнаружено вентиляторов: "
+
+#: src/app/MainWindow.cpp:198 src/app/MainWindow.cpp:285
+msgid "Active: "
+msgstr "Активно: "
+
+#: src/app/MainWindow.cpp:201
+msgid "Chassis: "
+msgstr "Корпусных: "
+
+#: src/app/MainWindow.cpp:204
+msgid "Fans"
+msgstr "Вентиляторы"
+
+#: src/app/MainWindow.cpp:215
+msgid "Processor"
+msgstr "Процессор"
+
+#: src/app/MainWindow.cpp:226
+msgid "Graphics"
+msgstr "Видеокарта"
+
+#: src/app/MainWindow.cpp:241
+msgid "Profiles"
+msgstr "Профили"
+
+#: src/app/MainWindow.cpp:309
+msgid "Sensors data updated"
+msgstr "Данные датчиков обновлены"
+
+#: src/app/MainWindow.cpp:326
+msgid "Authorization successful. Hardware control enabled."
+msgstr "Авторизация успешна. Управление оборудованием включено."
+
+#: src/app/MainWindow.cpp:342
+msgid "Language changed. Please restart the application for full effect."
+msgstr "Язык изменен. Пожалуйста, перезапустите программу для полного эффекта."
+
+#: src/core/Types.hpp:43
+msgid "CPU Fan"
+msgstr "Вентилятор CPU"
+
+#: src/core/Types.hpp:44
+msgid "GPU Fan"
+msgstr "Вентилятор GPU"
+
+#: src/core/Types.hpp:45 src/ui/FanCard.cpp:74
+msgid "Chassis / External Fan"
+msgstr "Корпусный / Внешний вентилятор"
+
+#: src/core/Types.hpp:46
+msgid "Unknown Fan"
+msgstr "Неизвестный вентилятор"
+
+#: src/core/Types.hpp:54
+msgid "Chassis / External"
+msgstr "Корпусный / Внешний"
+
+#: src/core/Types.hpp:55 src/core/ProfileManager.cpp:20
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: src/core/FanManager.cpp:42
+msgid "PCI Display / VGA Controller"
+msgstr "Шина PCI Display / VGA Controller"
+
+#: src/core/FanManager.cpp:54
+msgid "GPU Controller (Driver: "
+msgstr "Контроллер GPU (Драйвер: "
+
+#: src/core/FanManager.cpp:63 src/core/FanManager.cpp:70
+#: src/core/FanManager.cpp:82
+msgid "Sensor label: "
+msgstr "Метка сенсора: "
+
+#: src/core/FanManager.cpp:102
+msgid "Bound to CPU thermal sensor: "
+msgstr "Привязка к термодатчику процессора: "
+
+#: src/core/FanManager.cpp:111
+msgid "Bound to motherboard system sensor: "
+msgstr "Привязка к системному датчику платы: "
+
+#: src/core/FanManager.cpp:122
+msgid "External USB cooling controller"
+msgstr "Внешний USB-контроллер охлаждения"
+
+#: src/core/FanManager.cpp:129
+msgid "Laptop primary cooling fan (CPU)"
+msgstr "Основной кулер ноутбука (CPU)"
+
+#: src/core/FanManager.cpp:132
+msgid "Laptop secondary cooling fan (GPU/Chassis)"
+msgstr "Дополнительный кулер ноутбука (GPU/Корпус)"
+
+#: src/core/FanManager.cpp:142
+msgid "Motherboard CPU_FAN/CPU_OPT header (SuperIO "
+msgstr "Разъем платы CPU_FAN/CPU_OPT (SuperIO "
+
+#: src/core/FanManager.cpp:145
+msgid "Motherboard CHA_FAN header (Chassis/Case)"
+msgstr "Разъем платы CHA_FAN (Корпусный)"
+
+#: src/core/FanManager.cpp:150
+msgid "hwmon device: "
+msgstr "Устройство hwmon: "
+
+#: src/core/ProfileManager.cpp:15
+msgid "Quiet (Silent)"
+msgstr "Тихий (Silent)"
+
+#: src/core/ProfileManager.cpp:16 src/ui/FanCard.cpp:197
+#: src/ui/SummaryView.cpp:202
+msgid "Balanced"
+msgstr "Сбалансированный (Balanced)"
+
+#: src/core/ProfileManager.cpp:17 src/ui/SummaryView.cpp:203
+msgid "Performance"
+msgstr "Производительный (Performance)"
+
+#: src/core/ProfileManager.cpp:18 src/ui/SummaryView.cpp:204
+msgid "Max Cooling"
+msgstr "Максимальный обдув (Max Cooling)"
+
+#: src/core/ProfileManager.cpp:26
+msgid ""
+"Minimum noise: Powersave mode for CPU, fan speeds at 30%, conservative GPU "
+"clocks."
+msgstr ""
+"Минимальный шум: режим Powersave для CPU, обороты кулеров 30%, умеренные "
+"частоты GPU."
+
+#: src/core/ProfileManager.cpp:28
+msgid ""
+"Optimal balance: Automatic fan curve, adaptive frequencies for processor and "
+"graphics card."
+msgstr ""
+"Оптимальный баланс: автоматическое управление кулерами, адаптивные частоты "
+"процессора и видеокарты."
+
+#: src/core/ProfileManager.cpp:30
+msgid ""
+"Maximum power: Performance governor for CPU, Turbo Boost enabled, GPU High, "
+"fans at 80%."
+msgstr ""
+"Максимальная мощность: режим Performance для CPU, Turbo Boost, GPU High, "
+"вентиляторы на 80%."
+
+#: src/core/ProfileManager.cpp:32
+msgid ""
+"Extreme cooling: All fans (CPU, GPU, chassis) spin at 100% for rapid heat "
+"dissipation."
+msgstr ""
+"Экстремальное охлаждение: все вентиляторы (CPU, GPU, корпус) раскручиваются "
+"на 100%."
+
+#: src/ui/FanCard.cpp:54
+msgid "Fan "
+msgstr "Вентилятор "
+
+#: src/ui/FanCard.cpp:61
+msgid "Detected automatically"
+msgstr "Определен автоматически"
+
+#: src/ui/FanCard.cpp:72
+msgid "CPU Fan (Processor)"
+msgstr "CPU Fan (Процессор)"
+
+#: src/ui/FanCard.cpp:73
+msgid "GPU Fan (Graphics Card)"
+msgstr "GPU Fan (Видеокарта)"
+
+#: src/ui/FanCard.cpp:75
+msgid "Other"
+msgstr "Другой"
+
+#: src/ui/FanCard.cpp:114
+msgid "Auto (BIOS)"
+msgstr "Авто (BIOS)"
+
+#: src/ui/FanCard.cpp:115
+msgid "Simple (Slider)"
+msgstr "Простой (ползунок)"
+
+#: src/ui/FanCard.cpp:116
+msgid "Curve"
+msgstr "Кривая"
+
+#: src/ui/FanCard.cpp:137
+msgid "Speed:"
+msgstr "Скорость:"
+
+#: src/ui/FanCard.cpp:162
+msgid "Apply"
+msgstr "Применить"
+
+#: src/ui/FanCard.cpp:187
+msgid "Curve Preset:"
+msgstr "Пресет кривой:"
+
+#: src/ui/FanCard.cpp:196 src/ui/SummaryView.cpp:201
+msgid "Quiet"
+msgstr "Тихий"
+
+#: src/ui/FanCard.cpp:198
+msgid "Aggressive"
+msgstr "Агрессивный"
+
+#: src/ui/FanCard.cpp:237
+msgid "Temp: "
+msgstr "Темп: "
+
+#: src/ui/FanCard.cpp:238
+msgid "Target: "
+msgstr "Цель: "
+
+#: src/ui/CpuView.cpp:41
+msgid "Threads / Cores: "
+msgstr "Потоков / ядер: "
+
+#: src/ui/CpuView.cpp:42
+msgid "Frequencies: "
+msgstr "Частоты: "
+
+#: src/ui/CpuView.cpp:52
+msgid "Temperature"
+msgstr "Температура"
+
+#: src/ui/CpuView.cpp:53
+msgid "Average Frequency"
+msgstr "Средняя частота"
+
+#: src/ui/CpuView.cpp:54
+msgid "Active Governor"
+msgstr "Активный регулятор"
+
+#: src/ui/CpuView.cpp:55
+msgid "Energy Profile"
+msgstr "Энергопрофиль"
+
+#: src/ui/CpuView.cpp:64
+msgid "Frequency and Power Control"
+msgstr "Управление частотой и питанием"
+
+#: src/ui/CpuView.cpp:65
+msgid "Configure scaling drivers and policies for CPU cores"
+msgstr "Настройка алгоритмов масштабирования ядер CPU"
+
+#: src/ui/CpuView.cpp:70
+msgid "Scaling Governor"
+msgstr "Регулятор частоты (Scaling Governor)"
+
+#: src/ui/CpuView.cpp:71
+msgid "Dynamic scaling algorithm for CPU cores"
+msgstr "Алгоритм динамического изменения частоты ядер"
+
+#: src/ui/CpuView.cpp:89
+msgid "Energy Preference (EPP)"
+msgstr "Предпочтение энергии (EPP)"
+
+#: src/ui/CpuView.cpp:90
+msgid "Balance between performance and energy efficiency"
+msgstr "Балансировка между энергосбережением и откликом"
+
+#: src/ui/CpuView.cpp:109
+msgid "Intel Turbo Boost / AMD Core Boost"
+msgstr "Intel Turbo Boost / AMD Core Boost"
+
+#: src/ui/CpuView.cpp:110
+msgid "Automatically increase clock speeds above base frequency under load"
+msgstr "Автоматическое повышение частот выше базового уровня при нагрузке"
+
+#: src/ui/CpuView.cpp:120
+msgid "Minimum CPU Frequency"
+msgstr "Минимальная частота процессора"
+
+#: src/ui/CpuView.cpp:133
+msgid "Maximum CPU Frequency"
+msgstr "Максимальная частота процессора"
+
+#: src/ui/CpuView.cpp:148
+msgid "Apply CPU Settings"
+msgstr "Применить параметры CPU"
+
+#: src/ui/CpuView.cpp:157
+msgid "Per-Core Frequency Monitoring"
+msgstr "Мониторинг ядер (Per-Core Frequency)"
+
+#: src/ui/CpuView.cpp:163
+msgid "Core "
+msgstr "Ядро "
+
+#: src/ui/GpuView.cpp:27
+msgid "Graphics Card Not Detected"
+msgstr "Видеокарта не обнаружена"
+
+#: src/ui/GpuView.cpp:28
+msgid "No supported graphics processor found (AMD amdgpu, NVIDIA, or Intel)."
+msgstr ""
+"Не найден поддерживаемый графический процессор (AMD amdgpu, NVIDIA или "
+"Intel)."
+
+#: src/ui/GpuView.cpp:49
+msgid "Driver: "
+msgstr "Драйвер: "
+
+#: src/ui/GpuView.cpp:49
+msgid "Bus: "
+msgstr "Шина: "
+
+#: src/ui/GpuView.cpp:58
+msgid "GPU Temperature"
+msgstr "Температура GPU"
+
+#: src/ui/GpuView.cpp:62
+msgid "Power Consumption"
+msgstr "Потребление питания"
+
+#: src/ui/GpuView.cpp:64
+msgid "Core Clock (SCLK)"
+msgstr "Частота ядра (SCLK)"
+
+#: src/ui/GpuView.cpp:65
+msgid "Memory Clock (MCLK)"
+msgstr "Частота памяти (MCLK)"
+
+#: src/ui/GpuView.cpp:74
+msgid "GPU Frequency and Power Control"
+msgstr "Управление частотой и питанием GPU"
+
+#: src/ui/GpuView.cpp:75
+msgid "DPM (Dynamic Power Management) modes and clock state selection"
+msgstr "Режимы DPM (Dynamic Power Management) и выбор состояний частот"
+
+#: src/ui/GpuView.cpp:80
+msgid "DPM Performance Level"
+msgstr "Режим производительности DPM"
+
+#: src/ui/GpuView.cpp:81
+msgid ""
+"auto (dynamic), low (power save), high (max clock), manual (user defined)"
+msgstr ""
+"auto (динамический), low (энергосбережение), high (макс. частота), manual "
+"(ручной)"
+
+#: src/ui/GpuView.cpp:100
+msgid "Fix Core Clock (SCLK State)"
+msgstr "Фиксация частоты ядра (SCLK State)"
+
+#: src/ui/GpuView.cpp:101
+msgid "Select fixed DPM clock state for GPU core"
+msgstr "Выбор фиксированного DPM-состояния частоты графического процессора"
+
+#: src/ui/GpuView.cpp:123
+msgid "Fix Memory Clock (MCLK State)"
+msgstr "Фиксация частоты памяти VRAM (MCLK State)"
+
+#: src/ui/GpuView.cpp:124
+msgid "Select fixed DPM clock state for VRAM"
+msgstr "Выбор фиксированного DPM-состояния частоты видеопамяти"
+
+#: src/ui/GpuView.cpp:146
+msgid "Power Profile"
+msgstr "Профиль энергопотребления"
+
+#: src/ui/GpuView.cpp:147
+msgid "AMD PowerPlay hardware profiles (3D Full Screen, Compute, Video)"
+msgstr "Аппаратные профили AMD PowerPlay (3D Full Screen, Compute, Video)"
+
+#: src/ui/GpuView.cpp:169
+msgid "Apply GPU Settings"
+msgstr "Применить параметры GPU"
+
+#: src/ui/ProfilesView.cpp:41
+msgid "ACTIVE"
+msgstr "АКТИВЕН"
+
+#: src/ui/ProfilesView.cpp:45
+msgid "Activate"
+msgstr "Активировать"
+
+#: src/ui/ProfilesView.cpp:73 src/ui/ProfilesView.cpp:75
+msgid "System Profiles"
+msgstr "Системные профили"
+
+#: src/ui/ProfilesView.cpp:78
+msgid "One-click switching between CPU, GPU, and fan cooling behavior."
+msgstr "Быстрое переключение поведения CPU, GPU и вентиляторов одним кликом."
+
+#: src/ui/SummaryView.cpp:97
+msgid "Processor (CPU)"
+msgstr "Процессор (CPU)"
+
+#: src/ui/SummaryView.cpp:127
+msgid "Graphics (GPU)"
+msgstr "Видеокарта (GPU)"
+
+#: src/ui/SummaryView.cpp:157
+msgid "Cooling Fans"
+msgstr "Кулеры охлаждения"
+
+#: src/ui/SummaryView.cpp:178
+msgid "Quick Control & System Profiles"
+msgstr "Быстрое управление и профили"
+
+#: src/ui/SummaryView.cpp:179
+msgid "Instantly switch system profiles or restore factory automatic behavior."
+msgstr "Мгновенное переключение профилей или возврат к заводским автоматическим настройкам."
+
+#: src/ui/SummaryView.cpp:183
+msgid "Global Preset"
+msgstr "Глобальный пресет"
+
+#: src/ui/SummaryView.cpp:184
+msgid "Apply balanced, quiet, performance, or automatic settings"
+msgstr "Применить сбалансированный, тихий, производительный или автоматический режим"
+
+#: src/ui/SummaryView.cpp:190
+msgid "Factory Auto"
+msgstr "Заводской авто"
+
+#: src/ui/SummaryView.cpp:230
+msgid "Cores"
+msgstr "Ядер"
+
+#: src/ui/SummaryView.cpp:237
+msgid "Integrated / Unknown GPU"
+msgstr "Встроенный / неизвестный GPU"
+
+#: src/ui/SummaryView.cpp:244
+msgid "Standard display driver"
+msgstr "Стандартный видеодрайвер"
+
+#: src/ui/SummaryView.cpp:259
+msgid "Active"
+msgstr "Активно"
+
+#: src/ui/SummaryView.cpp:259
+msgid "Total"
+msgstr "Всего"
+
+#: src/ui/SummaryView.cpp:266
+msgid "Hardware telemetry normal"
+msgstr "Телеметрия оборудования в норме"
+
+#: src/main.cpp:31
+msgid "Kaizen Power Tool — Hardware & Fan Controller (GTK4 / Libadwaita)"
+msgstr "Kaizen Power Tool — Управление частотами и охлаждением (GTK4 / Libadwaita)"
+
+#: src/main.cpp:32
+msgid "Usage:"
+msgstr "Использование:"
+
+#: src/main.cpp:34
+msgid "Options:"
+msgstr "Опции:"
+
+#: src/main.cpp:35
+msgid "Initial interface view tab"
+msgstr "Начальная вкладка интерфейса"
+
+#: src/main.cpp:36
+msgid "Interface language (English, Russian, Kazakh, Kyrgyz, Turkish, Uzbek)"
+msgstr "Язык интерфейса (English, Russian, Kazakh, Kyrgyz, Turkish, Uzbek)"
+
+#: src/main.cpp:37
+msgid "Show this help message"
+msgstr "Показать эту справку"
+
+#~ msgid "Rotational Speed"
+#~ msgstr "Скорость вращения"
+
+#~ msgid "Automatic Control (BIOS / Driver)"
+#~ msgstr "Автоматический контроль (BIOS / Драйвер)"
+
+#~ msgid "Manual Power:"
+#~ msgstr "Мощность:"

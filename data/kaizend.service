@@ -1,0 +1,17 @@
+[Unit]
+Description=Kaizen Power Tool Hardware & Fan Control Daemon
+Documentation=https://github.com/kaizen/kaizen-power-tool
+After=local-fs.target dbus.service
+Wants=dbus.service
+
+[Service]
+Type=dbus
+BusName=org.kaizen.PowerTool
+ExecStart=/usr/bin/kaizend
+Restart=on-failure
+RestartSec=3s
+User=root
+Group=kaizenctl
+
+[Install]
+WantedBy=multi-user.target

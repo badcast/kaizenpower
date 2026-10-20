@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FanController 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:59+0500\n"
+"PO-Revision-Date: 2026-10-20 14:55+0500\n"
+"Last-Translator: Antigravity\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/app/MainWindow.cpp:86
+msgid "READ ONLY"
+msgstr "FAQAT O'QISH"
+
+#: src/app/MainWindow.cpp:92
+msgid ""
+"Restart with administrator privileges (pkexec) to enable hardware control"
+msgstr ""
+"Boshqaruvni yoqish uchun administrator huquqlari (pkexec) bilan qayta ishga "
+"tushiring"
+
+#: src/app/MainWindow.cpp:112
+msgid "Change interface language"
+msgstr "Interfeys tilini o'zgartirish"
+
+#: src/app/MainWindow.cpp:117
+msgid "Refresh sensor data"
+msgstr "Sensor ma'lumotlarini yangilash"
+
+#: src/app/MainWindow.cpp:123
+msgid ""
+"The application is running in read-only mode. Administrator (Root) "
+"privileges are required to modify frequencies and fan speeds."
+msgstr ""
+"Dastur faqat o'qish rejimida ishlamoqda. Chastotalar va ventilyator "
+"tezligini o'zgartirish uchun administrator (Root) huquqlari talab qilinadi."
+
+#: src/app/MainWindow.cpp:124
+msgid "Elevate Privileges"
+msgstr "Huquqlarni oshirish"
+
+#: src/app/MainWindow.cpp:150
+msgid "Hardware restored to factory automatic mode"
+msgstr "Uskunalar zavod avtomatik rejimiga qaytarildi"
+
+#: src/app/MainWindow.cpp:157 src/app/MainWindow.cpp:237
+msgid "Profile activated: "
+msgstr "Profil faollashtirildi: "
+
+#: src/app/MainWindow.cpp:161
+msgid "Overview"
+msgstr "Umumiy ko'rinish"
+
+#: src/app/MainWindow.cpp:197 src/app/MainWindow.cpp:284
+msgid "Detected fans: "
+msgstr "Aniqlangan ventilyatorlar: "
+
+#: src/app/MainWindow.cpp:198 src/app/MainWindow.cpp:285
+msgid "Active: "
+msgstr "Faol: "
+
+#: src/app/MainWindow.cpp:201
+msgid "Chassis: "
+msgstr "Korpus: "
+
+#: src/app/MainWindow.cpp:204
+msgid "Fans"
+msgstr "Ventilyatorlar"
+
+#: src/app/MainWindow.cpp:215
+msgid "Processor"
+msgstr "Protsessor (CPU)"
+
+#: src/app/MainWindow.cpp:226
+msgid "Graphics"
+msgstr "Videokarta (GPU)"
+
+#: src/app/MainWindow.cpp:241
+msgid "Profiles"
+msgstr "Profillar"
+
+#: src/app/MainWindow.cpp:309
+msgid "Sensors data updated"
+msgstr "Sensor ma'lumotlari yangilandi"
+
+#: src/app/MainWindow.cpp:326
+msgid "Authorization successful. Hardware control enabled."
+msgstr "Avtorizatsiya muvaffaqiyatli o'tdi. Uskunalarni boshqarish yoqildi."
+
+#: src/app/MainWindow.cpp:342
+msgid "Language changed. Please restart the application for full effect."
+msgstr ""
+"Til o'zgartirildi. To'liq kuchga kirishi uchun dasturni qayta ishga "
+"tushiring."
+
+#: src/core/Types.hpp:43
+msgid "CPU Fan"
+msgstr "CPU ventilyatori"
+
+#: src/core/Types.hpp:44
+msgid "GPU Fan"
+msgstr "GPU ventilyatori"
+
+#: src/core/Types.hpp:45 src/ui/FanCard.cpp:74
+msgid "Chassis / External Fan"
+msgstr "Korpus / tashqi ventilyator"
+
+#: src/core/Types.hpp:46
+msgid "Unknown Fan"
+msgstr "Noma'lum ventilyator"
+
+#: src/core/Types.hpp:54
+msgid "Chassis / External"
+msgstr "Korpus / tashqi"
+
+#: src/core/Types.hpp:55 src/core/ProfileManager.cpp:20
+msgid "Unknown"
+msgstr "Noma'lum"
+
+#: src/core/FanManager.cpp:42
+msgid "PCI Display / VGA Controller"
+msgstr "PCI Displey / VGA kontrolleri"
+
+#: src/core/FanManager.cpp:54
+msgid "GPU Controller (Driver: "
+msgstr "GPU kontrolleri (Drayver: "
+
+#: src/core/FanManager.cpp:63 src/core/FanManager.cpp:70
+#: src/core/FanManager.cpp:82
+msgid "Sensor label: "
+msgstr "Sensor yorlig'i: "
+
+#: src/core/FanManager.cpp:102
+msgid "Bound to CPU thermal sensor: "
+msgstr "Protsessor harorat sensoriga bog'langan: "
+
+#: src/core/FanManager.cpp:111
+msgid "Bound to motherboard system sensor: "
+msgstr "Ona plata tizim sensoriga bog'langan: "
+
+#: src/core/FanManager.cpp:122
+msgid "External USB cooling controller"
+msgstr "Tashqi USB sovutish kontrolleri"
+
+#: src/core/FanManager.cpp:129
+msgid "Laptop primary cooling fan (CPU)"
+msgstr "Noutbuk asosiy ventilyatori (CPU)"
+
+#: src/core/FanManager.cpp:132
+msgid "Laptop secondary cooling fan (GPU/Chassis)"
+msgstr "Noutbuk qo'shimcha ventilyatori (GPU/Korpus)"
+
+#: src/core/FanManager.cpp:142
+msgid "Motherboard CPU_FAN/CPU_OPT header (SuperIO "
+msgstr "Ona plata CPU_FAN/CPU_OPT ulagichi (SuperIO "
+
+#: src/core/FanManager.cpp:145
+msgid "Motherboard CHA_FAN header (Chassis/Case)"
+msgstr "Ona plata CHA_FAN ulagichi (Korpus)"
+
+#: src/core/FanManager.cpp:150
+msgid "hwmon device: "
+msgstr "hwmon qurilmasi: "
+
+#: src/core/ProfileManager.cpp:15
+msgid "Quiet (Silent)"
+msgstr "Tinch (Silent)"
+
+#: src/core/ProfileManager.cpp:16 src/ui/FanCard.cpp:197
+#: src/ui/SummaryView.cpp:202
+msgid "Balanced"
+msgstr "Muvozanatli (Balanced)"
+
+#: src/core/ProfileManager.cpp:17 src/ui/SummaryView.cpp:203
+msgid "Performance"
+msgstr "Yuqori unumdorlik (Performance)"
+
+#: src/core/ProfileManager.cpp:18 src/ui/SummaryView.cpp:204
+msgid "Max Cooling"
+msgstr "Maksimal sovutish (Max Cooling)"
+
+#: src/core/ProfileManager.cpp:26
+msgid ""
+"Minimum noise: Powersave mode for CPU, fan speeds at 30%, conservative GPU "
+"clocks."
+msgstr ""
+"Minimal shovqin: CPU uchun Powersave rejimi, ventilyator tezligi 30%, GPU "
+"chastotasi tejamkor."
+
+#: src/core/ProfileManager.cpp:28
+msgid ""
+"Optimal balance: Automatic fan curve, adaptive frequencies for processor and "
+"graphics card."
+msgstr ""
+"Optimal muvozanat: Avtomatik ventilyator chizig'i, protsessor va videokarta "
+"uchun moslashuvchan chastotalar."
+
+#: src/core/ProfileManager.cpp:30
+msgid ""
+"Maximum power: Performance governor for CPU, Turbo Boost enabled, GPU High, "
+"fans at 80%."
+msgstr ""
+"Maksimal quvvat: CPU uchun Performance rejimi, Turbo Boost yoqilgan, GPU "
+"High, ventilyatorlar 80%."
+
+#: src/core/ProfileManager.cpp:32
+msgid ""
+"Extreme cooling: All fans (CPU, GPU, chassis) spin at 100% for rapid heat "
+"dissipation."
+msgstr ""
+"Favqulodda sovutish: Issiqlikni tez tarqatish uchun barcha ventilyatorlar "
+"(CPU, GPU, korpus) 100% aylanadi."
+
+#: src/ui/FanCard.cpp:54
+msgid "Fan "
+msgstr "Ventilyator "
+
+#: src/ui/FanCard.cpp:61
+msgid "Detected automatically"
+msgstr "Avtomatik aniqlandi"
+
+#: src/ui/FanCard.cpp:72
+msgid "CPU Fan (Processor)"
+msgstr "CPU ventilyatori (Protsessor)"
+
+#: src/ui/FanCard.cpp:73
+msgid "GPU Fan (Graphics Card)"
+msgstr "GPU ventilyatori (Videokarta)"
+
+#: src/ui/FanCard.cpp:75
+msgid "Other"
+msgstr "Boshqa"
+
+#: src/ui/FanCard.cpp:114
+msgid "Auto (BIOS)"
+msgstr "Avto (BIOS)"
+
+#: src/ui/FanCard.cpp:115
+msgid "Simple (Slider)"
+msgstr "Oddiy (slayder)"
+
+#: src/ui/FanCard.cpp:116
+msgid "Curve"
+msgstr "Egri chiziq"
+
+#: src/ui/FanCard.cpp:137
+msgid "Speed:"
+msgstr "Tezlik:"
+
+#: src/ui/FanCard.cpp:162
+msgid "Apply"
+msgstr "Qo'llash"
+
+#: src/ui/FanCard.cpp:187
+msgid "Curve Preset:"
+msgstr "Egri oldindan sozlash:"
+
+#: src/ui/FanCard.cpp:196 src/ui/SummaryView.cpp:201
+msgid "Quiet"
+msgstr "Tinch"
+
+#: src/ui/FanCard.cpp:198
+msgid "Aggressive"
+msgstr "Agressiv"
+
+#: src/ui/FanCard.cpp:237
+msgid "Temp: "
+msgstr "Harorat: "
+
+#: src/ui/FanCard.cpp:238
+msgid "Target: "
+msgstr "Maqsad: "
+
+#: src/ui/CpuView.cpp:41
+msgid "Threads / Cores: "
+msgstr "Oqimlar / yadrolar: "
+
+#: src/ui/CpuView.cpp:42
+msgid "Frequencies: "
+msgstr "Chastotalar: "
+
+#: src/ui/CpuView.cpp:52
+msgid "Temperature"
+msgstr "Harorat"
+
+#: src/ui/CpuView.cpp:53
+msgid "Average Frequency"
+msgstr "O'rtacha chastota"
+
+#: src/ui/CpuView.cpp:54
+msgid "Active Governor"
+msgstr "Faol regulyator"
+
+#: src/ui/CpuView.cpp:55
+msgid "Energy Profile"
+msgstr "Quvvat profili"
+
+#: src/ui/CpuView.cpp:64
+msgid "Frequency and Power Control"
+msgstr "Chastota va quvvatni boshqarish"
+
+#: src/ui/CpuView.cpp:65
+msgid "Configure scaling drivers and policies for CPU cores"
+msgstr "CPU yadrolari chastotasini boshqarish qoidalarini sozlash"
+
+#: src/ui/CpuView.cpp:70
+msgid "Scaling Governor"
+msgstr "Chastota regulyatori (Scaling Governor)"
+
+#: src/ui/CpuView.cpp:71
+msgid "Dynamic scaling algorithm for CPU cores"
+msgstr "CPU yadrolari chastotasini dinamik o'zgartirish algoritmi"
+
+#: src/ui/CpuView.cpp:89
+msgid "Energy Preference (EPP)"
+msgstr "Quvvat ustunligi (EPP)"
+
+#: src/ui/CpuView.cpp:90
+msgid "Balance between performance and energy efficiency"
+msgstr "Unumdorlik va energiya tejash o'rtasidagi muvozanat"
+
+#: src/ui/CpuView.cpp:109
+msgid "Intel Turbo Boost / AMD Core Boost"
+msgstr "Intel Turbo Boost / AMD Core Boost"
+
+#: src/ui/CpuView.cpp:110
+msgid "Automatically increase clock speeds above base frequency under load"
+msgstr "Yuklama vaqtida chastotani bazaviy darajadan yuqoriga ko'tarish"
+
+#: src/ui/CpuView.cpp:120
+msgid "Minimum CPU Frequency"
+msgstr "Minimal protsessor chastotasi"
+
+#: src/ui/CpuView.cpp:133
+msgid "Maximum CPU Frequency"
+msgstr "Maksimal protsessor chastotasi"
+
+#: src/ui/CpuView.cpp:148
+msgid "Apply CPU Settings"
+msgstr "CPU parametrlarini qo'llash"
+
+#: src/ui/CpuView.cpp:157
+msgid "Per-Core Frequency Monitoring"
+msgstr "Har bir yadro chastotasini kuzatish"
+
+#: src/ui/CpuView.cpp:163
+msgid "Core "
+msgstr "Yadro "
+
+#: src/ui/GpuView.cpp:27
+msgid "Graphics Card Not Detected"
+msgstr "Videokarta aniqlanmadi"
+
+#: src/ui/GpuView.cpp:28
+msgid "No supported graphics processor found (AMD amdgpu, NVIDIA, or Intel)."
+msgstr ""
+"Qo'llab-quvvatlanadigan grafik protsessor topilmadi (AMD amdgpu, NVIDIA yoki "
+"Intel)."
+
+#: src/ui/GpuView.cpp:49
+msgid "Driver: "
+msgstr "Drayver: "
+
+#: src/ui/GpuView.cpp:49
+msgid "Bus: "
+msgstr "Shina: "
+
+#: src/ui/GpuView.cpp:58
+msgid "GPU Temperature"
+msgstr "GPU harorati"
+
+#: src/ui/GpuView.cpp:62
+msgid "Power Consumption"
+msgstr "Quvvat sarfi"
+
+#: src/ui/GpuView.cpp:64
+msgid "Core Clock (SCLK)"
+msgstr "Yadro chastotasi (SCLK)"
+
+#: src/ui/GpuView.cpp:65
+msgid "Memory Clock (MCLK)"
+msgstr "Xotira chastotasi (MCLK)"
+
+#: src/ui/GpuView.cpp:74
+msgid "GPU Frequency and Power Control"
+msgstr "GPU chastotasi va quvvatini boshqarish"
+
+#: src/ui/GpuView.cpp:75
+msgid "DPM (Dynamic Power Management) modes and clock state selection"
+msgstr "DPM rejimlari va chastota holatlarini tanlash"
+
+#: src/ui/GpuView.cpp:80
+msgid "DPM Performance Level"
+msgstr "DPM unumdorlik darajasi"
+
+#: src/ui/GpuView.cpp:81
+msgid ""
+"auto (dynamic), low (power save), high (max clock), manual (user defined)"
+msgstr ""
+"auto (dinamik), low (energiya tejash), high (maksimal tezlik), manual "
+"(foydalanuvchi)"
+
+#: src/ui/GpuView.cpp:100
+msgid "Fix Core Clock (SCLK State)"
+msgstr "Yadro chastotasini belgilash (SCLK holati)"
+
+#: src/ui/GpuView.cpp:101
+msgid "Select fixed DPM clock state for GPU core"
+msgstr "GPU yadrosi uchun belgilangan DPM chastotasini tanlang"
+
+#: src/ui/GpuView.cpp:123
+msgid "Fix Memory Clock (MCLK State)"
+msgstr "VRAM xotira chastotasini belgilash (MCLK holati)"
+
+#: src/ui/GpuView.cpp:124
+msgid "Select fixed DPM clock state for VRAM"
+msgstr "Videoxotira uchun belgilangan DPM chastotasini tanlang"
+
+#: src/ui/GpuView.cpp:146
+msgid "Power Profile"
+msgstr "Quvvat profili"
+
+#: src/ui/GpuView.cpp:147
+msgid "AMD PowerPlay hardware profiles (3D Full Screen, Compute, Video)"
+msgstr "AMD PowerPlay apparat profillari (3D Full Screen, Compute, Video)"
+
+#: src/ui/GpuView.cpp:169
+msgid "Apply GPU Settings"
+msgstr "GPU parametrlarini qo'llash"
+
+#: src/ui/ProfilesView.cpp:41
+msgid "ACTIVE"
+msgstr "FAOL"
+
+#: src/ui/ProfilesView.cpp:45
+msgid "Activate"
+msgstr "Faollashtirish"
+
+#: src/ui/ProfilesView.cpp:73 src/ui/ProfilesView.cpp:75
+msgid "System Profiles"
+msgstr "Tizim profillari"
+
+#: src/ui/ProfilesView.cpp:78
+msgid "One-click switching between CPU, GPU, and fan cooling behavior."
+msgstr "CPU, GPU va ventilyatorlar ishini bir bosish orqali boshqarish."
+
+#: src/ui/SummaryView.cpp:97
+msgid "Processor (CPU)"
+msgstr "Protsessor (CPU)"
+
+#: src/ui/SummaryView.cpp:127
+msgid "Graphics (GPU)"
+msgstr "Videokarta (GPU)"
+
+#: src/ui/SummaryView.cpp:157
+msgid "Cooling Fans"
+msgstr "Sovutish ventilyatorlari"
+
+#: src/ui/SummaryView.cpp:178
+msgid "Quick Control & System Profiles"
+msgstr "Tezkor boshqaruv va tizim profillari"
+
+#: src/ui/SummaryView.cpp:179
+msgid "Instantly switch system profiles or restore factory automatic behavior."
+msgstr "Tizim profillarini bir zumda almashtirish yoki zavod avtomatik holatiga qaytarish."
+
+#: src/ui/SummaryView.cpp:183
+msgid "Global Preset"
+msgstr "Umumiy oldindan sozlash"
+
+#: src/ui/SummaryView.cpp:184
+msgid "Apply balanced, quiet, performance, or automatic settings"
+msgstr "Muvozanatli, tinch, unumdor yoki avtomatik sozlamalarni qo'llash"
+
+#: src/ui/SummaryView.cpp:190
+msgid "Factory Auto"
+msgstr "Zavod avto"
+
+#: src/ui/SummaryView.cpp:230
+msgid "Cores"
+msgstr "Yadro"
+
+#: src/ui/SummaryView.cpp:237
+msgid "Integrated / Unknown GPU"
+msgstr "O'rnatilgan / noma'lum GPU"
+
+#: src/ui/SummaryView.cpp:244
+msgid "Standard display driver"
+msgstr "Standart video drayveri"
+
+#: src/ui/SummaryView.cpp:259
+msgid "Active"
+msgstr "Faol"
+
+#: src/ui/SummaryView.cpp:259
+msgid "Total"
+msgstr "Jami"
+
+#: src/ui/SummaryView.cpp:266
+msgid "Hardware telemetry normal"
+msgstr "Uskunalar telemetriyasi me'yorda"
+
+#: src/main.cpp:31
+msgid "Kaizen Power Tool — Hardware & Fan Controller (GTK4 / Libadwaita)"
+msgstr "Kaizen Power Tool — Qurilmalar va ventilyatorlarni boshqarish (GTK4 / Libadwaita)"
+"FanFlow — Qurilmalar va ventilyatorlarni boshqarish (GTK4 / Libadwaita)"
+
+#: src/main.cpp:32
+msgid "Usage:"
+msgstr "Foydalanish:"
+
+#: src/main.cpp:34
+msgid "Options:"
+msgstr "Variantlar:"
+
+#: src/main.cpp:35
+msgid "Initial interface view tab"
+msgstr "Boshlang'ich interfeys sahifasi"
+
+#: src/main.cpp:36
+msgid "Interface language (English, Russian, Kazakh, Kyrgyz, Turkish, Uzbek)"
+msgstr "Interfeys tili (English, Russian, Kazakh, Kyrgyz, Turkish, Uzbek)"
+
+#: src/main.cpp:37
+msgid "Show this help message"
+msgstr "Ushbu yordam xabarini ko'rsatish"
+
+#~ msgid "Rotational Speed"
+#~ msgstr "Aylanish tezligi"
+
+#~ msgid "Automatic Control (BIOS / Driver)"
+#~ msgstr "Avtomatik boshqaruv (BIOS / Drayver)"
+
+#~ msgid "Manual Power:"
+#~ msgstr "Qo'lda quvvat:"

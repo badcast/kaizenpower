@@ -1,0 +1,516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-20 15:59+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/app/MainWindow.cpp:86
+msgid "READ ONLY"
+msgstr ""
+
+#: src/app/MainWindow.cpp:92
+msgid ""
+"Restart with administrator privileges (pkexec) to enable hardware control"
+msgstr ""
+
+#: src/app/MainWindow.cpp:112
+msgid "Change interface language"
+msgstr ""
+
+#: src/app/MainWindow.cpp:117
+msgid "Refresh sensor data"
+msgstr ""
+
+#: src/app/MainWindow.cpp:123
+msgid ""
+"The application is running in read-only mode. Administrator (Root) "
+"privileges are required to modify frequencies and fan speeds."
+msgstr ""
+
+#: src/app/MainWindow.cpp:124
+msgid "Elevate Privileges"
+msgstr ""
+
+#: src/app/MainWindow.cpp:150
+msgid "Hardware restored to factory automatic mode"
+msgstr ""
+
+#: src/app/MainWindow.cpp:157 src/app/MainWindow.cpp:237
+msgid "Profile activated: "
+msgstr ""
+
+#: src/app/MainWindow.cpp:161
+msgid "Overview"
+msgstr ""
+
+#: src/app/MainWindow.cpp:197 src/app/MainWindow.cpp:284
+msgid "Detected fans: "
+msgstr ""
+
+#: src/app/MainWindow.cpp:198 src/app/MainWindow.cpp:285
+msgid "Active: "
+msgstr ""
+
+#: src/app/MainWindow.cpp:201
+msgid "Chassis: "
+msgstr ""
+
+#: src/app/MainWindow.cpp:204
+msgid "Fans"
+msgstr ""
+
+#: src/app/MainWindow.cpp:215
+msgid "Processor"
+msgstr ""
+
+#: src/app/MainWindow.cpp:226
+msgid "Graphics"
+msgstr ""
+
+#: src/app/MainWindow.cpp:241
+msgid "Profiles"
+msgstr ""
+
+#: src/app/MainWindow.cpp:309
+msgid "Sensors data updated"
+msgstr ""
+
+#: src/app/MainWindow.cpp:326
+msgid "Authorization successful. Hardware control enabled."
+msgstr ""
+
+#: src/app/MainWindow.cpp:342
+msgid "Language changed. Please restart the application for full effect."
+msgstr ""
+
+#: src/core/Types.hpp:43
+msgid "CPU Fan"
+msgstr ""
+
+#: src/core/Types.hpp:44
+msgid "GPU Fan"
+msgstr ""
+
+#: src/core/Types.hpp:45 src/ui/FanCard.cpp:74
+msgid "Chassis / External Fan"
+msgstr ""
+
+#: src/core/Types.hpp:46
+msgid "Unknown Fan"
+msgstr ""
+
+#: src/core/Types.hpp:54
+msgid "Chassis / External"
+msgstr ""
+
+#: src/core/Types.hpp:55 src/core/ProfileManager.cpp:20
+msgid "Unknown"
+msgstr ""
+
+#: src/core/FanManager.cpp:42
+msgid "PCI Display / VGA Controller"
+msgstr ""
+
+#: src/core/FanManager.cpp:54
+msgid "GPU Controller (Driver: "
+msgstr ""
+
+#: src/core/FanManager.cpp:63 src/core/FanManager.cpp:70
+#: src/core/FanManager.cpp:82
+msgid "Sensor label: "
+msgstr ""
+
+#: src/core/FanManager.cpp:102
+msgid "Bound to CPU thermal sensor: "
+msgstr ""
+
+#: src/core/FanManager.cpp:111
+msgid "Bound to motherboard system sensor: "
+msgstr ""
+
+#: src/core/FanManager.cpp:122
+msgid "External USB cooling controller"
+msgstr ""
+
+#: src/core/FanManager.cpp:129
+msgid "Laptop primary cooling fan (CPU)"
+msgstr ""
+
+#: src/core/FanManager.cpp:132
+msgid "Laptop secondary cooling fan (GPU/Chassis)"
+msgstr ""
+
+#: src/core/FanManager.cpp:142
+msgid "Motherboard CPU_FAN/CPU_OPT header (SuperIO "
+msgstr ""
+
+#: src/core/FanManager.cpp:145
+msgid "Motherboard CHA_FAN header (Chassis/Case)"
+msgstr ""
+
+#: src/core/FanManager.cpp:150
+msgid "hwmon device: "
+msgstr ""
+
+#: src/core/ProfileManager.cpp:15
+msgid "Quiet (Silent)"
+msgstr ""
+
+#: src/core/ProfileManager.cpp:16 src/ui/FanCard.cpp:197
+#: src/ui/SummaryView.cpp:202
+msgid "Balanced"
+msgstr ""
+
+#: src/core/ProfileManager.cpp:17 src/ui/SummaryView.cpp:203
+msgid "Performance"
+msgstr ""
+
+#: src/core/ProfileManager.cpp:18 src/ui/SummaryView.cpp:204
+msgid "Max Cooling"
+msgstr ""
+
+#: src/core/ProfileManager.cpp:26
+msgid ""
+"Minimum noise: Powersave mode for CPU, fan speeds at 30%, conservative GPU "
+"clocks."
+msgstr ""
+
+#: src/core/ProfileManager.cpp:28
+msgid ""
+"Optimal balance: Automatic fan curve, adaptive frequencies for processor and "
+"graphics card."
+msgstr ""
+
+#: src/core/ProfileManager.cpp:30
+msgid ""
+"Maximum power: Performance governor for CPU, Turbo Boost enabled, GPU High, "
+"fans at 80%."
+msgstr ""
+
+#: src/core/ProfileManager.cpp:32
+msgid ""
+"Extreme cooling: All fans (CPU, GPU, chassis) spin at 100% for rapid heat "
+"dissipation."
+msgstr ""
+
+#: src/ui/FanCard.cpp:54
+msgid "Fan "
+msgstr ""
+
+#: src/ui/FanCard.cpp:61
+msgid "Detected automatically"
+msgstr ""
+
+#: src/ui/FanCard.cpp:72
+msgid "CPU Fan (Processor)"
+msgstr ""
+
+#: src/ui/FanCard.cpp:73
+msgid "GPU Fan (Graphics Card)"
+msgstr ""
+
+#: src/ui/FanCard.cpp:75
+msgid "Other"
+msgstr ""
+
+#: src/ui/FanCard.cpp:114
+msgid "Auto (BIOS)"
+msgstr ""
+
+#: src/ui/FanCard.cpp:115
+msgid "Simple (Slider)"
+msgstr ""
+
+#: src/ui/FanCard.cpp:116
+msgid "Curve"
+msgstr ""
+
+#: src/ui/FanCard.cpp:137
+msgid "Speed:"
+msgstr ""
+
+#: src/ui/FanCard.cpp:162
+msgid "Apply"
+msgstr ""
+
+#: src/ui/FanCard.cpp:187
+msgid "Curve Preset:"
+msgstr ""
+
+#: src/ui/FanCard.cpp:196 src/ui/SummaryView.cpp:201
+msgid "Quiet"
+msgstr ""
+
+#: src/ui/FanCard.cpp:198
+msgid "Aggressive"
+msgstr ""
+
+#: src/ui/FanCard.cpp:237
+msgid "Temp: "
+msgstr ""
+
+#: src/ui/FanCard.cpp:238
+msgid "Target: "
+msgstr ""
+
+#: src/ui/CpuView.cpp:41
+msgid "Threads / Cores: "
+msgstr ""
+
+#: src/ui/CpuView.cpp:42
+msgid "Frequencies: "
+msgstr ""
+
+#: src/ui/CpuView.cpp:52
+msgid "Temperature"
+msgstr ""
+
+#: src/ui/CpuView.cpp:53
+msgid "Average Frequency"
+msgstr ""
+
+#: src/ui/CpuView.cpp:54
+msgid "Active Governor"
+msgstr ""
+
+#: src/ui/CpuView.cpp:55
+msgid "Energy Profile"
+msgstr ""
+
+#: src/ui/CpuView.cpp:64
+msgid "Frequency and Power Control"
+msgstr ""
+
+#: src/ui/CpuView.cpp:65
+msgid "Configure scaling drivers and policies for CPU cores"
+msgstr ""
+
+#: src/ui/CpuView.cpp:70
+msgid "Scaling Governor"
+msgstr ""
+
+#: src/ui/CpuView.cpp:71
+msgid "Dynamic scaling algorithm for CPU cores"
+msgstr ""
+
+#: src/ui/CpuView.cpp:89
+msgid "Energy Preference (EPP)"
+msgstr ""
+
+#: src/ui/CpuView.cpp:90
+msgid "Balance between performance and energy efficiency"
+msgstr ""
+
+#: src/ui/CpuView.cpp:109
+msgid "Intel Turbo Boost / AMD Core Boost"
+msgstr ""
+
+#: src/ui/CpuView.cpp:110
+msgid "Automatically increase clock speeds above base frequency under load"
+msgstr ""
+
+#: src/ui/CpuView.cpp:120
+msgid "Minimum CPU Frequency"
+msgstr ""
+
+#: src/ui/CpuView.cpp:133
+msgid "Maximum CPU Frequency"
+msgstr ""
+
+#: src/ui/CpuView.cpp:148
+msgid "Apply CPU Settings"
+msgstr ""
+
+#: src/ui/CpuView.cpp:157
+msgid "Per-Core Frequency Monitoring"
+msgstr ""
+
+#: src/ui/CpuView.cpp:163
+msgid "Core "
+msgstr ""
+
+#: src/ui/GpuView.cpp:27
+msgid "Graphics Card Not Detected"
+msgstr ""
+
+#: src/ui/GpuView.cpp:28
+msgid "No supported graphics processor found (AMD amdgpu, NVIDIA, or Intel)."
+msgstr ""
+
+#: src/ui/GpuView.cpp:49
+msgid "Driver: "
+msgstr ""
+
+#: src/ui/GpuView.cpp:49
+msgid "Bus: "
+msgstr ""
+
+#: src/ui/GpuView.cpp:58
+msgid "GPU Temperature"
+msgstr ""
+
+#: src/ui/GpuView.cpp:62
+msgid "Power Consumption"
+msgstr ""
+
+#: src/ui/GpuView.cpp:64
+msgid "Core Clock (SCLK)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:65
+msgid "Memory Clock (MCLK)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:74
+msgid "GPU Frequency and Power Control"
+msgstr ""
+
+#: src/ui/GpuView.cpp:75
+msgid "DPM (Dynamic Power Management) modes and clock state selection"
+msgstr ""
+
+#: src/ui/GpuView.cpp:80
+msgid "DPM Performance Level"
+msgstr ""
+
+#: src/ui/GpuView.cpp:81
+msgid ""
+"auto (dynamic), low (power save), high (max clock), manual (user defined)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:100
+msgid "Fix Core Clock (SCLK State)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:101
+msgid "Select fixed DPM clock state for GPU core"
+msgstr ""
+
+#: src/ui/GpuView.cpp:123
+msgid "Fix Memory Clock (MCLK State)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:124
+msgid "Select fixed DPM clock state for VRAM"
+msgstr ""
+
+#: src/ui/GpuView.cpp:146
+msgid "Power Profile"
+msgstr ""
+
+#: src/ui/GpuView.cpp:147
+msgid "AMD PowerPlay hardware profiles (3D Full Screen, Compute, Video)"
+msgstr ""
+
+#: src/ui/GpuView.cpp:169
+msgid "Apply GPU Settings"
+msgstr ""
+
+#: src/ui/ProfilesView.cpp:41
+msgid "ACTIVE"
+msgstr ""
+
+#: src/ui/ProfilesView.cpp:45
+msgid "Activate"
+msgstr ""
+
+#: src/ui/ProfilesView.cpp:73 src/ui/ProfilesView.cpp:75
+msgid "System Profiles"
+msgstr ""
+
+#: src/ui/ProfilesView.cpp:78
+msgid "One-click switching between CPU, GPU, and fan cooling behavior."
+msgstr ""
+
+#: src/ui/SummaryView.cpp:97
+msgid "Processor (CPU)"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:127
+msgid "Graphics (GPU)"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:157
+msgid "Cooling Fans"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:178
+msgid "Quick Control & System Profiles"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:179
+msgid "Instantly switch system profiles or restore factory automatic behavior."
+msgstr ""
+
+#: src/ui/SummaryView.cpp:183
+msgid "Global Preset"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:184
+msgid "Apply balanced, quiet, performance, or automatic settings"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:190
+msgid "Factory Auto"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:230
+msgid "Cores"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:237
+msgid "Integrated / Unknown GPU"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:244
+msgid "Standard display driver"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:259
+msgid "Active"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:259
+msgid "Total"
+msgstr ""
+
+#: src/ui/SummaryView.cpp:266
+msgid "Hardware telemetry normal"
+msgstr ""
+
+#: src/main.cpp:31
+msgid "Kaizen Power Tool — Hardware & Fan Controller (GTK4 / Libadwaita)"
+msgstr ""
+
+#: src/main.cpp:32
+msgid "Usage:"
+msgstr ""
+
+#: src/main.cpp:34
+msgid "Options:"
+msgstr ""
+
+#: src/main.cpp:35
+msgid "Initial interface view tab"
+msgstr ""
+
+#: src/main.cpp:36
+msgid "Interface language (English, Russian, Kazakh, Kyrgyz, Turkish, Uzbek)"
+msgstr ""
+
+#: src/main.cpp:37
+msgid "Show this help message"
+msgstr ""

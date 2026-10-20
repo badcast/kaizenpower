@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=FanFlow
+Comment=Управление частотами CPU, GPU и вентиляторами в системе
+Comment[en]=Hardware fan, CPU and GPU clock controller
+Exec=fancontroller
+Icon=kaizenguiapp
+Terminal=false
+Type=Application
+Categories=System;HardwareSettings;Settings;
+Keywords=fan;controller;cpu;gpu;temperature;overclock;cooling;
+StartupNotify=true

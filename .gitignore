@@ -1,0 +1,7 @@
+build/
+.cache/
+*.o
+*.png
+!resources/*.png
+!resources/**/*.png
+compile_commands.json

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kaizen Power Tool
+Comment=Manage CPU, GPU, and system cooling fans with thermal curves
+Exec=kaizengui
+Icon=io.github.kaizen.PowerTool
+Terminal=false
+Type=Application
+Categories=System;HardwareSettings;Settings;Utility;
+Keywords=fan;cpu;gpu;governor;clock;cooler;hardware;kaizen;
+StartupNotify=true

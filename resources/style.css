@@ -1,0 +1,140 @@
+/* Modern Minimalist & Ultra-Compact GTK4 / Libadwaita styling for Kaizen Power Tool */
+
+.fan-card {
+    background-color: alpha(@card_bg_color, 0.9);
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    border: 1px solid alpha(@borders, 0.4);
+}
+
+.fan-badge {
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding: 1px 6px;
+    border-radius: 6px;
+}
+
+.fan-badge-cpu {
+    background-color: alpha(#1c71d8, 0.18);
+    color: #3584e4;
+    border: 1px solid alpha(#3584e4, 0.35);
+}
+
+.fan-badge-gpu {
+    background-color: alpha(#9141ac, 0.18);
+    color: #c061cb;
+    border: 1px solid alpha(#c061cb, 0.35);
+}
+
+.fan-badge-case {
+    background-color: alpha(#26a269, 0.18);
+    color: #33d17a;
+    border: 1px solid alpha(#33d17a, 0.35);
+}
+
+.fan-badge-unknown {
+    background-color: alpha(#5e5c64, 0.18);
+    color: #9a9996;
+    border: 1px solid alpha(#9a9996, 0.35);
+}
+
+.rpm-value {
+    font-size: 15px;
+    font-weight: 700;
+    font-feature-settings: "tnum";
+}
+
+.metric-box {
+    background-color: alpha(@card_bg_color, 0.65);
+    border-radius: 6px;
+    padding: 5px 8px;
+    border: 1px solid alpha(@borders, 0.4);
+}
+
+.metric-title {
+    font-size: 10.5px;
+    font-weight: 600;
+    opacity: 0.65;
+    margin-bottom: 1px;
+}
+
+.compact-title {
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.metric-number {
+    font-size: 14px;
+    font-weight: 700;
+    font-feature-settings: "tnum";
+}
+
+.profile-card {
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    background-color: alpha(@card_bg_color, 0.75);
+    border: 1px solid alpha(@borders, 0.4);
+    transition: all 150ms ease;
+}
+
+.profile-card:hover {
+    background-color: alpha(@card_bg_color, 0.95);
+}
+
+.profile-card.active-profile {
+    border: 1.5px solid #3584e4;
+    background-color: alpha(#3584e4, 0.07);
+}
+
+.pill-btn {
+    border-radius: 10px;
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 1px 7px;
+    min-height: 22px;
+}
+
+.pill-btn:hover {
+    background-color: alpha(@accent_color, 0.2);
+}
+
+.mode-btn {
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+
+.curve-box {
+    background-color: alpha(black, 0.12);
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid alpha(@borders, 0.3);
+}
+
+.privilege-badge-root {
+    background-color: alpha(#26a269, 0.2);
+    color: #33d17a;
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 9.5px;
+    font-weight: 700;
+}
+
+.privilege-badge-user {
+    background-color: alpha(#e66100, 0.2);
+    color: #ff7800;
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 9.5px;
+    font-weight: 700;
+}
+
+.dim-label {
+    font-size: 10.5px;
+    opacity: 0.65;
+}
